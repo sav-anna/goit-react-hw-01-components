@@ -25,5 +25,5 @@ export const StatisticItem = ({ label, percentage }) => {
 
 StatisticItem.propTypes = {
   label: PropTypes.string.isRequired,
-  percentage: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
