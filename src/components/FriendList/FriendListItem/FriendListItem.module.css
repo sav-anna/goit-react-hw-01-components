@@ -1,6 +1,7 @@
 .item {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   box-shadow: 0 0 10px #c6cccced;
   padding: 20px;
