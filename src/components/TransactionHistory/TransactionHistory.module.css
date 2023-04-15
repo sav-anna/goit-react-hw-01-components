@@ -10,12 +10,19 @@
 }
 
 thead {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 800;
   line-height: 30px;
   background-color: #0cb5cb;
+}
+td,
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .type {
