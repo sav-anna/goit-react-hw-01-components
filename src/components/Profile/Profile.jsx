@@ -12,7 +12,7 @@ export const Profile = ({
       <div className={css.description}>
         <img src={avatar} alt={username} class="avatar" />
         <p className={css.name}>{username}</p>
-        <p className={css.tag}>{tag}</p>
+        <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
 
